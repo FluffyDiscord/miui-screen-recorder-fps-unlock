@@ -24,12 +24,22 @@ adb pull /product/data-app/MIUIScreenRecorder/MIUIScreenRecorder.apk
 ## 🩹 Patches list
 
 <!-- PATCHES_START EXPANDED -->
+> **[v1.0.0](https://github.com/FluffyDiscord/miui-screen-recorder-fps-unlock/releases/tag/v1.0.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;2 patches total
+<details open>
+<summary>📦 Screen Recorder&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
+<br>
 
-<!-- Do not modify this section by hand. The patch list is generated when release.yml creates a new release. -->
+**🎯 Supported versions:**
 
-#### The patch list is filled in by the first release.
+| 4.15.3.5.0 |
+| :---: |
 
-&nbsp;
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Mark tile icon](#mark-tile-icon) | Cuts an "H" into the camera of the Screen Recorder tile icon. |  |
+| [Unlock high frame rates](#unlock-high-frame-rates) | Adds 120, 144, 165 and 185 fps, encodes every new screen frame with its own timestamp, and installs the recorder as a separate app next to the stock one. |  |
+
+</details>
 
 <!-- PATCHES_END -->
 
