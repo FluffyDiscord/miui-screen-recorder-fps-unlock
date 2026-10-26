@@ -6,6 +6,10 @@ Morphe patches for the MIUI / HyperOS Screen Recorder.
 
 Record at 120, 144, 165 and 185 fps instead of 90. The patched recorder installs next to the stock one.
 
+- **Even frame pacing** — one video frame per screen frame, stamped with the frame's own time. The stock app uses an 8 ms timer, so it duplicates and drops frames.
+- **Full-length clips** — the stock app can lose the start of a clip while it waits for a keyframe. Patched clips start at 0 s.
+- **Still screen** — the last image repeats every 100 ms, so pauses stay in the clip.
+
 ### How to use these patches
 
 Click here to add these patches to Morphe: https://morphe.software/add-source?github=FluffyDiscord/miui-screen-recorder-fps-unlock
